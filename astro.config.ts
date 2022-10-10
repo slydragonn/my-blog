@@ -11,8 +11,7 @@ export default defineConfig({
 			wrap: true,
 		},
 	},
-	site: "https://slydragonn.github.io",
-	base: '/blog',
+	site: "",
 	integrations: [
 		mdx({}),
 		tailwind({
