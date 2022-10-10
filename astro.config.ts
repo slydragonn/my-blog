@@ -11,7 +11,8 @@ export default defineConfig({
 			wrap: true,
 		},
 	},
-	site: "https://www.astro-theme-cactus.netlify.app",
+	site: "https://slydragonn.github.io",
+	base: '/blog',
 	integrations: [
 		mdx({}),
 		tailwind({
