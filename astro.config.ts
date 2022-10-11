@@ -3,7 +3,6 @@ import mdx from "@astrojs/mdx";
 import tailwind from "@astrojs/tailwind";
 import image from "@astrojs/image";
 import sitemap from "@astrojs/sitemap";
-import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
@@ -18,7 +17,5 @@ export default defineConfig({
     config: {
       applyBaseStyles: false
     }
-  }), image(), sitemap()],
-  output: "server",
-  adapter: vercel()
+  }), image(), sitemap()]
 });
