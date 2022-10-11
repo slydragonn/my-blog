@@ -13,7 +13,7 @@ export default defineConfig({
       wrap: true
     }
   },
-  site: "",
+  site: "https://slyblog.vercel.app",
   integrations: [mdx({}), tailwind({
     config: {
       applyBaseStyles: false
