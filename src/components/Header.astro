@@ -29,7 +29,7 @@ const url = new URL(Astro.request.url);
 			aria-current={url.pathname === "/" ? "page" : false}
 		>
 			<img class="fireball" src="/fireball.png" alt="logo" />
-			<span>slydragonn - blog</span>
+			<span>Alejandro Londoño - blog</span>
 		</a>
 		<nav id="navigation-menu" aria-label="Main">
 			<a href="/" aria-current={url.pathname === "/" ? "page" : false}>Home</a>
@@ -37,7 +37,7 @@ const url = new URL(Astro.request.url);
 				>About
 			</a>
 			<a href="/posts" aria-current={url.pathname === "/posts" ? "page" : false}
-				>Blog
+				>Posts
 			</a>
 		</nav>
 	</span>
@@ -66,7 +66,7 @@ const url = new URL(Astro.request.url);
 		@apply relative z-50 mb-28 flex items-center sm:pl-[4.5rem];
 
 		.logo {
-			@apply inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block;
+			@apply inline-flex items-center sm:relative sm:inline-block;
 
 			.fireball {
 				@apply mr-3 w-10 sm:absolute sm:left-[-4.5rem] sm:mr-0 sm:w-14;
